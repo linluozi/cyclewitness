@@ -33,9 +33,9 @@ Selected rows (static cycles / observed reads):
 | package | static cycles | reads | non-probe reads |
 | --- | --- | --- | --- |
 | twisted | 15 | 0 | 0 |
-| asyncio | 1 | 82 | 0 |
+| asyncio | 1 | 81 | 0 |
 | eventlet | 1 | 47 | 1 |
-| yaml | 1 | 12 | 0 |
+| requests | 1 | 4 | 0 |
 | markdown_it | 1 | 10 | 0 |
 | jinja2 | 1 | 5 | 0 |
 
