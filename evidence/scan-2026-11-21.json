@@ -1,0 +1,5224 @@
+{
+  "generated_by": "scripts/scan_all.py",
+  "python": "3.12.3",
+  "records": [
+    {
+      "corpus": "stdlib",
+      "elapsed_s": 0.0221,
+      "error": null,
+      "import_ok": true,
+      "package": "asyncio",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3.12/asyncio",
+      "runtime": {
+        "accesses": 162,
+        "imported_modules": 29,
+        "kinds": {
+          "submodule-probe": 81
+        },
+        "packages": [
+          "asyncio"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "asyncio",
+          "asyncio.base_events",
+          "asyncio.base_futures",
+          "asyncio.base_subprocess",
+          "asyncio.base_tasks",
+          "asyncio.constants",
+          "asyncio.coroutines",
+          "asyncio.events",
+          "asyncio.exceptions",
+          "asyncio.format_helpers",
+          "asyncio.futures",
+          "asyncio.locks",
+          "asyncio.log",
+          "asyncio.mixins",
+          "asyncio.protocols",
+          "asyncio.queues",
+          "asyncio.runners",
+          "asyncio.selector_events",
+          "asyncio.sslproto",
+          "asyncio.staggered",
+          "asyncio.streams",
+          "asyncio.subprocess",
+          "asyncio.taskgroups",
+          "asyncio.tasks",
+          "asyncio.threads",
+          "asyncio.timeouts",
+          "asyncio.transports",
+          "asyncio.trsock",
+          "asyncio.unix_events"
+        ],
+        "witnesses": [
+          {
+            "accessor": "asyncio.selector_events",
+            "attribute": "base_events",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.selector_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.selector_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.92,
+            "globals_at_access": 115,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.unix_events",
+            "attribute": "base_events",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.912,
+            "globals_at_access": 114,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.base_tasks",
+            "attribute": "base_futures",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.events",
+              "asyncio.base_tasks"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.events",
+              "asyncio.base_tasks"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.048,
+            "globals_at_access": 6,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.futures",
+            "attribute": "base_futures",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.futures"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.futures"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.064,
+            "globals_at_access": 8,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.unix_events",
+            "attribute": "base_subprocess",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.912,
+            "globals_at_access": 114,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.tasks",
+            "attribute": "base_tasks",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.tasks"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.tasks"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.12,
+            "globals_at_access": 15,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.base_events",
+            "attribute": "constants",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.008,
+            "globals_at_access": 1,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.format_helpers",
+            "attribute": "constants",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.events",
+              "asyncio.format_helpers"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.events",
+              "asyncio.format_helpers"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.024,
+            "globals_at_access": 3,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.runners",
+            "attribute": "constants",
+            "chain": [
+              "asyncio",
+              "asyncio.runners"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.runners"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.48,
+            "globals_at_access": 60,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.selector_events",
+            "attribute": "constants",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.selector_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.selector_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.92,
+            "globals_at_access": 115,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.sslproto",
+            "attribute": "constants",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.sslproto"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.sslproto"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.08,
+            "globals_at_access": 10,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.unix_events",
+            "attribute": "constants",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.92,
+            "globals_at_access": 115,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.base_events",
+            "attribute": "coroutines",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.016,
+            "globals_at_access": 2,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.base_tasks",
+            "attribute": "coroutines",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.events",
+              "asyncio.base_tasks"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.events",
+              "asyncio.base_tasks"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.048,
+            "globals_at_access": 6,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.runners",
+            "attribute": "coroutines",
+            "chain": [
+              "asyncio",
+              "asyncio.runners"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.runners"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.48,
+            "globals_at_access": 60,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.streams",
+            "attribute": "coroutines",
+            "chain": [
+              "asyncio",
+              "asyncio.streams"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.streams"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.552,
+            "globals_at_access": 69,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.tasks",
+            "attribute": "coroutines",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.tasks"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.tasks"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.12,
+            "globals_at_access": 15,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.unix_events",
+            "attribute": "coroutines",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.92,
+            "globals_at_access": 115,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.base_events",
+            "attribute": "events",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.024,
+            "globals_at_access": 3,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.futures",
+            "attribute": "events",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.futures"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.futures"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.064,
+            "globals_at_access": 8,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.mixins",
+            "attribute": "events",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.locks",
+              "asyncio.mixins"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.locks",
+              "asyncio.mixins"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.104,
+            "globals_at_access": 13,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.runners",
+            "attribute": "events",
+            "chain": [
+              "asyncio",
+              "asyncio.runners"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.runners"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.48,
+            "globals_at_access": 60,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.selector_events",
+            "attribute": "events",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.selector_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.selector_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.92,
+            "globals_at_access": 115,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.staggered",
+            "attribute": "events",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.104,
+            "globals_at_access": 13,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.streams",
+            "attribute": "events",
+            "chain": [
+              "asyncio",
+              "asyncio.streams"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.streams"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.552,
+            "globals_at_access": 69,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.subprocess",
+            "attribute": "events",
+            "chain": [
+              "asyncio",
+              "asyncio.subprocess"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.subprocess"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.616,
+            "globals_at_access": 77,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.taskgroups",
+            "attribute": "events",
+            "chain": [
+              "asyncio",
+              "asyncio.taskgroups"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.taskgroups"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.808,
+            "globals_at_access": 101,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.tasks",
+            "attribute": "events",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.tasks"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.tasks"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.12,
+            "globals_at_access": 15,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.threads",
+            "attribute": "events",
+            "chain": [
+              "asyncio",
+              "asyncio.threads"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.threads"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.848,
+            "globals_at_access": 106,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.timeouts",
+            "attribute": "events",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.tasks",
+              "asyncio.timeouts"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.tasks",
+              "asyncio.timeouts"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.12,
+            "globals_at_access": 15,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.unix_events",
+            "attribute": "events",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.92,
+            "globals_at_access": 115,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.base_events",
+            "attribute": "exceptions",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.064,
+            "globals_at_access": 8,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.futures",
+            "attribute": "exceptions",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.futures"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.futures"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.064,
+            "globals_at_access": 8,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.locks",
+            "attribute": "exceptions",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.locks"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.locks"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.104,
+            "globals_at_access": 13,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.runners",
+            "attribute": "exceptions",
+            "chain": [
+              "asyncio",
+              "asyncio.runners"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.runners"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.48,
+            "globals_at_access": 60,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.sslproto",
+            "attribute": "exceptions",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.sslproto"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.sslproto"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.08,
+            "globals_at_access": 10,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.staggered",
+            "attribute": "exceptions",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.104,
+            "globals_at_access": 13,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.streams",
+            "attribute": "exceptions",
+            "chain": [
+              "asyncio",
+              "asyncio.streams"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.streams"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.552,
+            "globals_at_access": 69,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.taskgroups",
+            "attribute": "exceptions",
+            "chain": [
+              "asyncio",
+              "asyncio.taskgroups"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.taskgroups"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.808,
+            "globals_at_access": 101,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.tasks",
+            "attribute": "exceptions",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.tasks"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.tasks"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.12,
+            "globals_at_access": 15,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.timeouts",
+            "attribute": "exceptions",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.tasks",
+              "asyncio.timeouts"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.tasks",
+              "asyncio.timeouts"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.12,
+            "globals_at_access": 15,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.unix_events",
+            "attribute": "exceptions",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.92,
+            "globals_at_access": 115,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.base_futures",
+            "attribute": "format_helpers",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.events",
+              "asyncio.base_futures"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.events",
+              "asyncio.base_futures"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.032,
+            "globals_at_access": 4,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.events",
+            "attribute": "format_helpers",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.events"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.024,
+            "globals_at_access": 3,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.futures",
+            "attribute": "format_helpers",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.futures"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.futures"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.064,
+            "globals_at_access": 8,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.streams",
+            "attribute": "format_helpers",
+            "chain": [
+              "asyncio",
+              "asyncio.streams"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.streams"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.552,
+            "globals_at_access": 69,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.base_events",
+            "attribute": "futures",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.064,
+            "globals_at_access": 8,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.selector_events",
+            "attribute": "futures",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.selector_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.selector_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.92,
+            "globals_at_access": 115,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.tasks",
+            "attribute": "futures",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.tasks"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.tasks"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.12,
+            "globals_at_access": 15,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.unix_events",
+            "attribute": "futures",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.92,
+            "globals_at_access": 115,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.queues",
+            "attribute": "locks",
+            "chain": [
+              "asyncio",
+              "asyncio.queues"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.queues"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.504,
+            "globals_at_access": 63,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.staggered",
+            "attribute": "locks",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.104,
+            "globals_at_access": 13,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.locks",
+            "attribute": "mixins",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.locks"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.locks"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.104,
+            "globals_at_access": 13,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.queues",
+            "attribute": "mixins",
+            "chain": [
+              "asyncio",
+              "asyncio.queues"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.queues"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.504,
+            "globals_at_access": 63,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.base_events",
+            "attribute": "protocols",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.072,
+            "globals_at_access": 9,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.base_subprocess",
+            "attribute": "protocols",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.base_subprocess"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.base_subprocess"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.912,
+            "globals_at_access": 114,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.selector_events",
+            "attribute": "protocols",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.selector_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.selector_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.92,
+            "globals_at_access": 115,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.sslproto",
+            "attribute": "protocols",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.sslproto"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.sslproto"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.08,
+            "globals_at_access": 10,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.streams",
+            "attribute": "protocols",
+            "chain": [
+              "asyncio",
+              "asyncio.streams"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.streams"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.552,
+            "globals_at_access": 69,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.subprocess",
+            "attribute": "protocols",
+            "chain": [
+              "asyncio",
+              "asyncio.subprocess"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.subprocess"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.616,
+            "globals_at_access": 77,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.unix_events",
+            "attribute": "selector_events",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.92,
+            "globals_at_access": 115,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.base_events",
+            "attribute": "sslproto",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.08,
+            "globals_at_access": 10,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.selector_events",
+            "attribute": "sslproto",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.selector_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.selector_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.92,
+            "globals_at_access": 115,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.base_events",
+            "attribute": "staggered",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.104,
+            "globals_at_access": 13,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.subprocess",
+            "attribute": "streams",
+            "chain": [
+              "asyncio",
+              "asyncio.subprocess"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.subprocess"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.616,
+            "globals_at_access": 77,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.base_events",
+            "attribute": "tasks",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.144,
+            "globals_at_access": 18,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.runners",
+            "attribute": "tasks",
+            "chain": [
+              "asyncio",
+              "asyncio.runners"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.runners"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.48,
+            "globals_at_access": 60,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.staggered",
+            "attribute": "tasks",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.12,
+            "globals_at_access": 15,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.subprocess",
+            "attribute": "tasks",
+            "chain": [
+              "asyncio",
+              "asyncio.subprocess"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.subprocess"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.616,
+            "globals_at_access": 77,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.taskgroups",
+            "attribute": "tasks",
+            "chain": [
+              "asyncio",
+              "asyncio.taskgroups"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.taskgroups"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.808,
+            "globals_at_access": 101,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.timeouts",
+            "attribute": "tasks",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.tasks",
+              "asyncio.timeouts"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.tasks",
+              "asyncio.timeouts"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.12,
+            "globals_at_access": 15,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.unix_events",
+            "attribute": "tasks",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.928,
+            "globals_at_access": 116,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.base_events",
+            "attribute": "timeouts",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.144,
+            "globals_at_access": 18,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.tasks",
+            "attribute": "timeouts",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.tasks"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.staggered",
+              "asyncio.tasks"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.12,
+            "globals_at_access": 15,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.base_events",
+            "attribute": "transports",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.144,
+            "globals_at_access": 18,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.base_subprocess",
+            "attribute": "transports",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.base_subprocess"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.base_subprocess"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.912,
+            "globals_at_access": 114,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.selector_events",
+            "attribute": "transports",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.selector_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.selector_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.92,
+            "globals_at_access": 115,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.sslproto",
+            "attribute": "transports",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.sslproto"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events",
+              "asyncio.sslproto"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.08,
+            "globals_at_access": 10,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.unix_events",
+            "attribute": "transports",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.928,
+            "globals_at_access": 116,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.base_events",
+            "attribute": "trsock",
+            "chain": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.base_events"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.144,
+            "globals_at_access": 18,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          },
+          {
+            "accessor": "asyncio.selector_events",
+            "attribute": "trsock",
+            "chain": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.selector_events"
+            ],
+            "count": 2,
+            "cycle": [
+              "asyncio",
+              "asyncio.unix_events",
+              "asyncio.selector_events"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.92,
+            "globals_at_access": 115,
+            "kind": "submodule-probe",
+            "target": "asyncio"
+          }
+        ]
+      },
+      "static": {
+        "cycle_count": 1,
+        "cycles": [
+          [
+            "asyncio",
+            "asyncio.base_events",
+            "asyncio.base_futures",
+            "asyncio.base_subprocess",
+            "asyncio.base_tasks",
+            "asyncio.events",
+            "asyncio.format_helpers",
+            "asyncio.futures",
+            "asyncio.locks",
+            "asyncio.mixins",
+            "asyncio.proactor_events",
+            "asyncio.queues",
+            "asyncio.runners",
+            "asyncio.selector_events",
+            "asyncio.sslproto",
+            "asyncio.staggered",
+            "asyncio.streams",
+            "asyncio.subprocess",
+            "asyncio.taskgroups",
+            "asyncio.tasks",
+            "asyncio.threads",
+            "asyncio.timeouts",
+            "asyncio.unix_events",
+            "asyncio.windows_events"
+          ]
+        ],
+        "edges": 151,
+        "largest_cycle": 24,
+        "modules": 33
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "stdlib",
+      "elapsed_s": 0.0002,
+      "error": null,
+      "import_ok": true,
+      "package": "email",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3.12/email",
+      "runtime": {
+        "accesses": 0,
+        "imported_modules": 1,
+        "kinds": {},
+        "packages": [
+          "email"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "email"
+        ],
+        "witnesses": []
+      },
+      "static": {
+        "cycle_count": 1,
+        "cycles": [
+          [
+            "email",
+            "email._encoded_words",
+            "email._header_value_parser",
+            "email._policybase",
+            "email.charset",
+            "email.contentmanager",
+            "email.feedparser",
+            "email.generator",
+            "email.header",
+            "email.headerregistry",
+            "email.message",
+            "email.parser",
+            "email.policy",
+            "email.utils"
+          ]
+        ],
+        "edges": 74,
+        "largest_cycle": 14,
+        "modules": 29
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "stdlib",
+      "elapsed_s": 0.0008,
+      "error": null,
+      "import_ok": true,
+      "package": "http",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3.12/http",
+      "runtime": {
+        "accesses": 0,
+        "imported_modules": 1,
+        "kinds": {},
+        "packages": [
+          "http"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "http"
+        ],
+        "witnesses": []
+      },
+      "static": {
+        "cycle_count": 0,
+        "cycles": [],
+        "edges": 4,
+        "largest_cycle": 0,
+        "modules": 5
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "stdlib",
+      "elapsed_s": 0.0002,
+      "error": null,
+      "import_ok": true,
+      "package": "xml.etree",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3.12/xml/etree",
+      "runtime": {
+        "accesses": 0,
+        "imported_modules": 1,
+        "kinds": {},
+        "packages": [
+          "xml.etree"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "xml.etree"
+        ],
+        "witnesses": []
+      },
+      "static": {
+        "cycle_count": 0,
+        "cycles": [],
+        "edges": 5,
+        "largest_cycle": 0,
+        "modules": 5
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "stdlib",
+      "elapsed_s": 0.0065,
+      "error": null,
+      "import_ok": true,
+      "package": "unittest",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3.12/unittest",
+      "runtime": {
+        "accesses": 20,
+        "imported_modules": 9,
+        "kinds": {
+          "submodule-probe": 10
+        },
+        "packages": [
+          "unittest"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "unittest",
+          "unittest.case",
+          "unittest.loader",
+          "unittest.main",
+          "unittest.result",
+          "unittest.runner",
+          "unittest.signals",
+          "unittest.suite",
+          "unittest.util"
+        ],
+        "witnesses": [
+          {
+            "accessor": "unittest.loader",
+            "attribute": "case",
+            "chain": [
+              "unittest",
+              "unittest.loader"
+            ],
+            "count": 2,
+            "cycle": [
+              "unittest",
+              "unittest.loader"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.5152,
+            "globals_at_access": 17,
+            "kind": "submodule-probe",
+            "target": "unittest"
+          },
+          {
+            "accessor": "unittest.suite",
+            "attribute": "case",
+            "chain": [
+              "unittest",
+              "unittest.suite"
+            ],
+            "count": 2,
+            "cycle": [
+              "unittest",
+              "unittest.suite"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.4242,
+            "globals_at_access": 14,
+            "kind": "submodule-probe",
+            "target": "unittest"
+          },
+          {
+            "accessor": "unittest.main",
+            "attribute": "loader",
+            "chain": [
+              "unittest",
+              "unittest.main"
+            ],
+            "count": 2,
+            "cycle": [
+              "unittest",
+              "unittest.main"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.6061,
+            "globals_at_access": 20,
+            "kind": "submodule-probe",
+            "target": "unittest"
+          },
+          {
+            "accessor": "unittest.case",
+            "attribute": "result",
+            "chain": [
+              "unittest",
+              "unittest.case"
+            ],
+            "count": 2,
+            "cycle": [
+              "unittest",
+              "unittest.case"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.0909,
+            "globals_at_access": 3,
+            "kind": "submodule-probe",
+            "target": "unittest"
+          },
+          {
+            "accessor": "unittest.runner",
+            "attribute": "result",
+            "chain": [
+              "unittest",
+              "unittest.main",
+              "unittest.runner"
+            ],
+            "count": 2,
+            "cycle": [
+              "unittest",
+              "unittest.main",
+              "unittest.runner"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.6061,
+            "globals_at_access": 20,
+            "kind": "submodule-probe",
+            "target": "unittest"
+          },
+          {
+            "accessor": "unittest.main",
+            "attribute": "runner",
+            "chain": [
+              "unittest",
+              "unittest.main"
+            ],
+            "count": 2,
+            "cycle": [
+              "unittest",
+              "unittest.main"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.6061,
+            "globals_at_access": 20,
+            "kind": "submodule-probe",
+            "target": "unittest"
+          },
+          {
+            "accessor": "unittest.loader",
+            "attribute": "suite",
+            "chain": [
+              "unittest",
+              "unittest.loader"
+            ],
+            "count": 2,
+            "cycle": [
+              "unittest",
+              "unittest.loader"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.5152,
+            "globals_at_access": 17,
+            "kind": "submodule-probe",
+            "target": "unittest"
+          },
+          {
+            "accessor": "unittest.loader",
+            "attribute": "util",
+            "chain": [
+              "unittest",
+              "unittest.loader"
+            ],
+            "count": 2,
+            "cycle": [
+              "unittest",
+              "unittest.loader"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.5152,
+            "globals_at_access": 17,
+            "kind": "submodule-probe",
+            "target": "unittest"
+          },
+          {
+            "accessor": "unittest.result",
+            "attribute": "util",
+            "chain": [
+              "unittest",
+              "unittest.result"
+            ],
+            "count": 2,
+            "cycle": [
+              "unittest",
+              "unittest.result"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0,
+            "globals_at_access": 0,
+            "kind": "submodule-probe",
+            "target": "unittest"
+          },
+          {
+            "accessor": "unittest.suite",
+            "attribute": "util",
+            "chain": [
+              "unittest",
+              "unittest.suite"
+            ],
+            "count": 2,
+            "cycle": [
+              "unittest",
+              "unittest.suite"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.4242,
+            "globals_at_access": 14,
+            "kind": "submodule-probe",
+            "target": "unittest"
+          }
+        ]
+      },
+      "static": {
+        "cycle_count": 1,
+        "cycles": [
+          [
+            "unittest",
+            "unittest._log",
+            "unittest.async_case",
+            "unittest.case",
+            "unittest.loader",
+            "unittest.main",
+            "unittest.result",
+            "unittest.runner",
+            "unittest.suite"
+          ]
+        ],
+        "edges": 33,
+        "largest_cycle": 9,
+        "modules": 13
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "stdlib",
+      "elapsed_s": 0.0035,
+      "error": null,
+      "import_ok": true,
+      "package": "logging",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3.12/logging",
+      "runtime": {
+        "accesses": 0,
+        "imported_modules": 1,
+        "kinds": {},
+        "packages": [
+          "logging"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "logging"
+        ],
+        "witnesses": []
+      },
+      "static": {
+        "cycle_count": 0,
+        "cycles": [],
+        "edges": 3,
+        "largest_cycle": 0,
+        "modules": 3
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "stdlib",
+      "elapsed_s": 0.0,
+      "error": null,
+      "import_ok": true,
+      "package": "importlib",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3.12/importlib",
+      "runtime": {
+        "accesses": 0,
+        "imported_modules": 0,
+        "kinds": {},
+        "packages": [
+          "importlib"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [],
+        "witnesses": []
+      },
+      "static": {
+        "cycle_count": 1,
+        "cycles": [
+          [
+            "importlib",
+            "importlib._abc",
+            "importlib._bootstrap_external",
+            "importlib.abc",
+            "importlib.machinery",
+            "importlib.metadata",
+            "importlib.readers",
+            "importlib.resources",
+            "importlib.resources._adapters",
+            "importlib.resources._common",
+            "importlib.resources._legacy",
+            "importlib.resources.readers"
+          ]
+        ],
+        "edges": 42,
+        "largest_cycle": 12,
+        "modules": 24
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "stdlib",
+      "elapsed_s": 0.0041,
+      "error": null,
+      "import_ok": true,
+      "package": "concurrent.futures",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3.12/concurrent/futures",
+      "runtime": {
+        "accesses": 0,
+        "imported_modules": 2,
+        "kinds": {},
+        "packages": [
+          "concurrent.futures"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "concurrent.futures",
+          "concurrent.futures._base"
+        ],
+        "witnesses": []
+      },
+      "static": {
+        "cycle_count": 1,
+        "cycles": [
+          [
+            "concurrent.futures",
+            "concurrent.futures.process",
+            "concurrent.futures.thread"
+          ]
+        ],
+        "edges": 7,
+        "largest_cycle": 3,
+        "modules": 4
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "stdlib",
+      "elapsed_s": 0.0054,
+      "error": null,
+      "import_ok": true,
+      "package": "multiprocessing",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3.12/multiprocessing",
+      "runtime": {
+        "accesses": 8,
+        "imported_modules": 4,
+        "kinds": {
+          "submodule-probe": 4
+        },
+        "packages": [
+          "multiprocessing"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "multiprocessing",
+          "multiprocessing.context",
+          "multiprocessing.process",
+          "multiprocessing.reduction"
+        ],
+        "witnesses": [
+          {
+            "accessor": "multiprocessing",
+            "attribute": "context",
+            "chain": [
+              "multiprocessing"
+            ],
+            "count": 2,
+            "cycle": [
+              "multiprocessing"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0233,
+            "globals_at_access": 1,
+            "kind": "submodule-probe",
+            "target": "multiprocessing"
+          },
+          {
+            "accessor": "multiprocessing.reduction",
+            "attribute": "context",
+            "chain": [
+              "multiprocessing",
+              "multiprocessing.context",
+              "multiprocessing.reduction"
+            ],
+            "count": 2,
+            "cycle": [
+              "multiprocessing",
+              "multiprocessing.context",
+              "multiprocessing.reduction"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0465,
+            "globals_at_access": 2,
+            "kind": "submodule-probe",
+            "target": "multiprocessing"
+          },
+          {
+            "accessor": "multiprocessing.context",
+            "attribute": "process",
+            "chain": [
+              "multiprocessing",
+              "multiprocessing.context"
+            ],
+            "count": 2,
+            "cycle": [
+              "multiprocessing",
+              "multiprocessing.context"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0233,
+            "globals_at_access": 1,
+            "kind": "submodule-probe",
+            "target": "multiprocessing"
+          },
+          {
+            "accessor": "multiprocessing.context",
+            "attribute": "reduction",
+            "chain": [
+              "multiprocessing",
+              "multiprocessing.context"
+            ],
+            "count": 2,
+            "cycle": [
+              "multiprocessing",
+              "multiprocessing.context"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0465,
+            "globals_at_access": 2,
+            "kind": "submodule-probe",
+            "target": "multiprocessing"
+          }
+        ]
+      },
+      "static": {
+        "cycle_count": 1,
+        "cycles": [
+          [
+            "multiprocessing",
+            "multiprocessing.connection",
+            "multiprocessing.context",
+            "multiprocessing.dummy",
+            "multiprocessing.forkserver",
+            "multiprocessing.heap",
+            "multiprocessing.managers",
+            "multiprocessing.pool",
+            "multiprocessing.popen_fork",
+            "multiprocessing.popen_forkserver",
+            "multiprocessing.popen_spawn_posix",
+            "multiprocessing.popen_spawn_win32",
+            "multiprocessing.process",
+            "multiprocessing.queues",
+            "multiprocessing.reduction",
+            "multiprocessing.resource_sharer",
+            "multiprocessing.resource_tracker",
+            "multiprocessing.shared_memory",
+            "multiprocessing.sharedctypes",
+            "multiprocessing.spawn",
+            "multiprocessing.synchronize",
+            "multiprocessing.util"
+          ]
+        ],
+        "edges": 105,
+        "largest_cycle": 22,
+        "modules": 23
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "stdlib",
+      "elapsed_s": 0.0,
+      "error": null,
+      "import_ok": true,
+      "package": "json",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3.12/json",
+      "runtime": {
+        "accesses": 0,
+        "imported_modules": 0,
+        "kinds": {},
+        "packages": [
+          "json"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [],
+        "witnesses": []
+      },
+      "static": {
+        "cycle_count": 1,
+        "cycles": [
+          [
+            "json",
+            "json.decoder"
+          ]
+        ],
+        "edges": 5,
+        "largest_cycle": 2,
+        "modules": 5
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "stdlib",
+      "elapsed_s": 0.0,
+      "error": null,
+      "import_ok": true,
+      "package": "urllib",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3.12/urllib",
+      "runtime": {
+        "accesses": 0,
+        "imported_modules": 0,
+        "kinds": {},
+        "packages": [
+          "urllib"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [],
+        "witnesses": []
+      },
+      "static": {
+        "cycle_count": 0,
+        "cycles": [],
+        "edges": 6,
+        "largest_cycle": 0,
+        "modules": 6
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "stdlib",
+      "elapsed_s": 0.0,
+      "error": null,
+      "import_ok": true,
+      "package": "collections",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3.12/collections",
+      "runtime": {
+        "accesses": 0,
+        "imported_modules": 0,
+        "kinds": {},
+        "packages": [
+          "collections"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [],
+        "witnesses": []
+      },
+      "static": {
+        "cycle_count": 0,
+        "cycles": [],
+        "edges": 0,
+        "largest_cycle": 0,
+        "modules": 2
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "third-party",
+      "elapsed_s": 0.0193,
+      "error": null,
+      "import_ok": true,
+      "package": "jinja2",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3/dist-packages/jinja2",
+      "runtime": {
+        "accesses": 10,
+        "imported_modules": 19,
+        "kinds": {
+          "submodule-probe": 5
+        },
+        "packages": [
+          "jinja2"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "jinja2",
+          "jinja2._identifier",
+          "jinja2.async_utils",
+          "jinja2.bccache",
+          "jinja2.compiler",
+          "jinja2.defaults",
+          "jinja2.environment",
+          "jinja2.exceptions",
+          "jinja2.filters",
+          "jinja2.idtracking",
+          "jinja2.lexer",
+          "jinja2.loaders",
+          "jinja2.nodes",
+          "jinja2.optimizer",
+          "jinja2.parser",
+          "jinja2.runtime",
+          "jinja2.tests",
+          "jinja2.utils",
+          "jinja2.visitor"
+        ],
+        "witnesses": [
+          {
+            "accessor": "jinja2.compiler",
+            "attribute": "nodes",
+            "chain": [
+              "jinja2",
+              "jinja2.environment",
+              "jinja2.compiler"
+            ],
+            "count": 2,
+            "cycle": [
+              "jinja2",
+              "jinja2.environment",
+              "jinja2.compiler"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.1224,
+            "globals_at_access": 6,
+            "kind": "submodule-probe",
+            "target": "jinja2"
+          },
+          {
+            "accessor": "jinja2.environment",
+            "attribute": "nodes",
+            "chain": [
+              "jinja2",
+              "jinja2.environment"
+            ],
+            "count": 2,
+            "cycle": [
+              "jinja2",
+              "jinja2.environment"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0816,
+            "globals_at_access": 4,
+            "kind": "submodule-probe",
+            "target": "jinja2"
+          },
+          {
+            "accessor": "jinja2.idtracking",
+            "attribute": "nodes",
+            "chain": [
+              "jinja2",
+              "jinja2.environment",
+              "jinja2.compiler",
+              "jinja2.idtracking"
+            ],
+            "count": 2,
+            "cycle": [
+              "jinja2",
+              "jinja2.environment",
+              "jinja2.compiler",
+              "jinja2.idtracking"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.1429,
+            "globals_at_access": 7,
+            "kind": "submodule-probe",
+            "target": "jinja2"
+          },
+          {
+            "accessor": "jinja2.optimizer",
+            "attribute": "nodes",
+            "chain": [
+              "jinja2",
+              "jinja2.environment",
+              "jinja2.compiler",
+              "jinja2.optimizer"
+            ],
+            "count": 2,
+            "cycle": [
+              "jinja2",
+              "jinja2.environment",
+              "jinja2.compiler",
+              "jinja2.optimizer"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.1837,
+            "globals_at_access": 9,
+            "kind": "submodule-probe",
+            "target": "jinja2"
+          },
+          {
+            "accessor": "jinja2.parser",
+            "attribute": "nodes",
+            "chain": [
+              "jinja2",
+              "jinja2.environment",
+              "jinja2.parser"
+            ],
+            "count": 2,
+            "cycle": [
+              "jinja2",
+              "jinja2.environment",
+              "jinja2.parser"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.3673,
+            "globals_at_access": 18,
+            "kind": "submodule-probe",
+            "target": "jinja2"
+          }
+        ]
+      },
+      "static": {
+        "cycle_count": 1,
+        "cycles": [
+          [
+            "jinja2",
+            "jinja2.async_utils",
+            "jinja2.bccache",
+            "jinja2.compiler",
+            "jinja2.debug",
+            "jinja2.defaults",
+            "jinja2.environment",
+            "jinja2.exceptions",
+            "jinja2.ext",
+            "jinja2.filters",
+            "jinja2.idtracking",
+            "jinja2.lexer",
+            "jinja2.loaders",
+            "jinja2.nodes",
+            "jinja2.optimizer",
+            "jinja2.parser",
+            "jinja2.runtime",
+            "jinja2.sandbox",
+            "jinja2.tests",
+            "jinja2.utils",
+            "jinja2.visitor"
+          ]
+        ],
+        "edges": 99,
+        "largest_cycle": 21,
+        "modules": 25
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "third-party",
+      "elapsed_s": 0.0041,
+      "error": null,
+      "import_ok": true,
+      "package": "babel",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3/dist-packages/babel",
+      "runtime": {
+        "accesses": 2,
+        "imported_modules": 4,
+        "kinds": {
+          "submodule-probe": 1
+        },
+        "packages": [
+          "babel"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "babel",
+          "babel.core",
+          "babel.localedata",
+          "babel.plural"
+        ],
+        "witnesses": [
+          {
+            "accessor": "babel.core",
+            "attribute": "localedata",
+            "chain": [
+              "babel",
+              "babel.core"
+            ],
+            "count": 2,
+            "cycle": [
+              "babel",
+              "babel.core"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0,
+            "globals_at_access": 0,
+            "kind": "submodule-probe",
+            "target": "babel"
+          }
+        ]
+      },
+      "static": {
+        "cycle_count": 2,
+        "cycles": [
+          [
+            "babel",
+            "babel.core",
+            "babel.localedata"
+          ],
+          [
+            "babel.messages.catalog",
+            "babel.messages.checkers"
+          ]
+        ],
+        "edges": 42,
+        "largest_cycle": 3,
+        "modules": 23
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "third-party",
+      "elapsed_s": 0.0073,
+      "error": null,
+      "import_ok": true,
+      "package": "click",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3/dist-packages/click",
+      "runtime": {
+        "accesses": 2,
+        "imported_modules": 11,
+        "kinds": {
+          "submodule-probe": 1
+        },
+        "packages": [
+          "click"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "click",
+          "click._compat",
+          "click.core",
+          "click.decorators",
+          "click.exceptions",
+          "click.formatting",
+          "click.globals",
+          "click.parser",
+          "click.termui",
+          "click.types",
+          "click.utils"
+        ],
+        "witnesses": [
+          {
+            "accessor": "click.core",
+            "attribute": "types",
+            "chain": [
+              "click",
+              "click.core"
+            ],
+            "count": 2,
+            "cycle": [
+              "click",
+              "click.core"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0,
+            "globals_at_access": 0,
+            "kind": "submodule-probe",
+            "target": "click"
+          }
+        ]
+      },
+      "static": {
+        "cycle_count": 2,
+        "cycles": [
+          [
+            "click",
+            "click._termui_impl",
+            "click.core",
+            "click.decorators",
+            "click.exceptions",
+            "click.formatting",
+            "click.globals",
+            "click.parser",
+            "click.shell_completion",
+            "click.termui",
+            "click.types",
+            "click.utils"
+          ],
+          [
+            "click._compat",
+            "click._winconsole"
+          ]
+        ],
+        "edges": 59,
+        "largest_cycle": 12,
+        "modules": 16
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "third-party",
+      "elapsed_s": 0.0601,
+      "error": null,
+      "import_ok": true,
+      "package": "requests",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3/dist-packages/requests",
+      "runtime": {
+        "accesses": 8,
+        "imported_modules": 17,
+        "kinds": {
+          "submodule-probe": 4
+        },
+        "packages": [
+          "requests"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "requests",
+          "requests.__version__",
+          "requests._internal_utils",
+          "requests.adapters",
+          "requests.api",
+          "requests.auth",
+          "requests.certs",
+          "requests.compat",
+          "requests.cookies",
+          "requests.exceptions",
+          "requests.hooks",
+          "requests.models",
+          "requests.packages",
+          "requests.sessions",
+          "requests.status_codes",
+          "requests.structures",
+          "requests.utils"
+        ],
+        "witnesses": [
+          {
+            "accessor": "requests.utils",
+            "attribute": "certs",
+            "chain": [
+              "requests",
+              "requests.utils"
+            ],
+            "count": 2,
+            "cycle": [
+              "requests",
+              "requests.utils"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.28,
+            "globals_at_access": 14,
+            "kind": "submodule-probe",
+            "target": "requests"
+          },
+          {
+            "accessor": "requests",
+            "attribute": "packages",
+            "chain": [
+              "requests"
+            ],
+            "count": 2,
+            "cycle": [
+              "requests"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.26,
+            "globals_at_access": 13,
+            "kind": "submodule-probe",
+            "target": "requests"
+          },
+          {
+            "accessor": "requests.api",
+            "attribute": "sessions",
+            "chain": [
+              "requests",
+              "requests.api"
+            ],
+            "count": 2,
+            "cycle": [
+              "requests",
+              "requests.api"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.38,
+            "globals_at_access": 19,
+            "kind": "submodule-probe",
+            "target": "requests"
+          },
+          {
+            "accessor": "requests",
+            "attribute": "utils",
+            "chain": [
+              "requests"
+            ],
+            "count": 2,
+            "cycle": [
+              "requests"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.28,
+            "globals_at_access": 14,
+            "kind": "submodule-probe",
+            "target": "requests"
+          }
+        ]
+      },
+      "static": {
+        "cycle_count": 1,
+        "cycles": [
+          [
+            "requests",
+            "requests.adapters",
+            "requests.api",
+            "requests.auth",
+            "requests.models",
+            "requests.sessions",
+            "requests.utils"
+          ]
+        ],
+        "edges": 57,
+        "largest_cycle": 7,
+        "modules": 18
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "third-party",
+      "elapsed_s": 0.0122,
+      "error": null,
+      "import_ok": true,
+      "package": "yaml",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3/dist-packages/yaml",
+      "runtime": {
+        "accesses": 0,
+        "imported_modules": 18,
+        "kinds": {},
+        "packages": [
+          "yaml"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "yaml",
+          "yaml._yaml",
+          "yaml.composer",
+          "yaml.constructor",
+          "yaml.cyaml",
+          "yaml.dumper",
+          "yaml.emitter",
+          "yaml.error",
+          "yaml.events",
+          "yaml.loader",
+          "yaml.nodes",
+          "yaml.parser",
+          "yaml.reader",
+          "yaml.representer",
+          "yaml.resolver",
+          "yaml.scanner",
+          "yaml.serializer",
+          "yaml.tokens"
+        ],
+        "witnesses": []
+      },
+      "static": {
+        "cycle_count": 1,
+        "cycles": [
+          [
+            "yaml",
+            "yaml.cyaml"
+          ]
+        ],
+        "edges": 43,
+        "largest_cycle": 2,
+        "modules": 17
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "third-party",
+      "elapsed_s": 0.0269,
+      "error": null,
+      "import_ok": true,
+      "package": "markdown_it",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3/dist-packages/markdown_it",
+      "runtime": {
+        "accesses": 20,
+        "imported_modules": 63,
+        "kinds": {
+          "submodule-probe": 10
+        },
+        "packages": [
+          "markdown_it"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "markdown_it",
+          "markdown_it._compat",
+          "markdown_it._punycode",
+          "markdown_it.common",
+          "markdown_it.common.entities",
+          "markdown_it.common.html_blocks",
+          "markdown_it.common.html_re",
+          "markdown_it.common.normalize_url",
+          "markdown_it.common.utils",
+          "markdown_it.helpers",
+          "markdown_it.helpers.parse_link_destination",
+          "markdown_it.helpers.parse_link_label",
+          "markdown_it.helpers.parse_link_title",
+          "markdown_it.main",
+          "markdown_it.parser_block",
+          "markdown_it.parser_core",
+          "markdown_it.parser_inline",
+          "markdown_it.presets",
+          "markdown_it.presets.commonmark",
+          "markdown_it.presets.default",
+          "markdown_it.presets.zero",
+          "markdown_it.renderer",
+          "markdown_it.ruler",
+          "markdown_it.rules_block",
+          "markdown_it.rules_block.blockquote",
+          "markdown_it.rules_block.code",
+          "markdown_it.rules_block.fence",
+          "markdown_it.rules_block.heading",
+          "markdown_it.rules_block.hr",
+          "markdown_it.rules_block.html_block",
+          "markdown_it.rules_block.lheading",
+          "markdown_it.rules_block.list",
+          "markdown_it.rules_block.paragraph",
+          "markdown_it.rules_block.reference",
+          "markdown_it.rules_block.state_block",
+          "markdown_it.rules_block.table",
+          "markdown_it.rules_core",
+          "markdown_it.rules_core.block",
+          "markdown_it.rules_core.inline",
+          "markdown_it.rules_core.linkify",
+          "markdown_it.rules_core.normalize",
+          "markdown_it.rules_core.replacements",
+          "markdown_it.rules_core.smartquotes",
+          "markdown_it.rules_core.state_core",
+          "markdown_it.rules_core.text_join",
+          "markdown_it.rules_inline",
+          "markdown_it.rules_inline.autolink",
+          "markdown_it.rules_inline.backticks",
+          "markdown_it.rules_inline.balance_pairs",
+          "markdown_it.rules_inline.emphasis",
+          "markdown_it.rules_inline.entity",
+          "markdown_it.rules_inline.escape",
+          "markdown_it.rules_inline.fragments_join",
+          "markdown_it.rules_inline.html_inline",
+          "markdown_it.rules_inline.image",
+          "markdown_it.rules_inline.link",
+          "markdown_it.rules_inline.linkify",
+          "markdown_it.rules_inline.newline",
+          "markdown_it.rules_inline.state_inline",
+          "markdown_it.rules_inline.strikethrough",
+          "markdown_it.rules_inline.text",
+          "markdown_it.token",
+          "markdown_it.utils"
+        ],
+        "witnesses": [
+          {
+            "accessor": "markdown_it.common.normalize_url",
+            "attribute": "_punycode",
+            "chain": [
+              "markdown_it",
+              "markdown_it.main",
+              "markdown_it.common.normalize_url"
+            ],
+            "count": 2,
+            "cycle": [
+              "markdown_it",
+              "markdown_it.main",
+              "markdown_it.common.normalize_url"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.4706,
+            "globals_at_access": 8,
+            "kind": "submodule-probe",
+            "target": "markdown_it"
+          },
+          {
+            "accessor": "markdown_it.main",
+            "attribute": "helpers",
+            "chain": [
+              "markdown_it",
+              "markdown_it.main"
+            ],
+            "count": 2,
+            "cycle": [
+              "markdown_it",
+              "markdown_it.main"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0,
+            "globals_at_access": 0,
+            "kind": "submodule-probe",
+            "target": "markdown_it"
+          },
+          {
+            "accessor": "markdown_it.main",
+            "attribute": "presets",
+            "chain": [
+              "markdown_it",
+              "markdown_it.main"
+            ],
+            "count": 2,
+            "cycle": [
+              "markdown_it",
+              "markdown_it.main"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.4118,
+            "globals_at_access": 7,
+            "kind": "submodule-probe",
+            "target": "markdown_it"
+          },
+          {
+            "accessor": "markdown_it.parser_block",
+            "attribute": "rules_block",
+            "chain": [
+              "markdown_it",
+              "markdown_it.main",
+              "markdown_it.parser_block"
+            ],
+            "count": 2,
+            "cycle": [
+              "markdown_it",
+              "markdown_it.main",
+              "markdown_it.parser_block"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.5294,
+            "globals_at_access": 9,
+            "kind": "submodule-probe",
+            "target": "markdown_it"
+          },
+          {
+            "accessor": "markdown_it.parser_inline",
+            "attribute": "rules_inline",
+            "chain": [
+              "markdown_it",
+              "markdown_it.main",
+              "markdown_it.parser_inline"
+            ],
+            "count": 2,
+            "cycle": [
+              "markdown_it",
+              "markdown_it.main",
+              "markdown_it.parser_inline"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.7647,
+            "globals_at_access": 13,
+            "kind": "submodule-probe",
+            "target": "markdown_it"
+          },
+          {
+            "accessor": "markdown_it.presets",
+            "attribute": "commonmark",
+            "chain": [
+              "markdown_it",
+              "markdown_it.main",
+              "markdown_it.presets"
+            ],
+            "count": 2,
+            "cycle": [
+              "markdown_it.presets"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0,
+            "globals_at_access": 0,
+            "kind": "submodule-probe",
+            "target": "markdown_it.presets"
+          },
+          {
+            "accessor": "markdown_it.presets",
+            "attribute": "default",
+            "chain": [
+              "markdown_it",
+              "markdown_it.main",
+              "markdown_it.presets"
+            ],
+            "count": 2,
+            "cycle": [
+              "markdown_it.presets"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.1667,
+            "globals_at_access": 1,
+            "kind": "submodule-probe",
+            "target": "markdown_it.presets"
+          },
+          {
+            "accessor": "markdown_it.presets",
+            "attribute": "zero",
+            "chain": [
+              "markdown_it",
+              "markdown_it.main",
+              "markdown_it.presets"
+            ],
+            "count": 2,
+            "cycle": [
+              "markdown_it.presets"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.3333,
+            "globals_at_access": 2,
+            "kind": "submodule-probe",
+            "target": "markdown_it.presets"
+          },
+          {
+            "accessor": "markdown_it.rules_inline",
+            "attribute": "emphasis",
+            "chain": [
+              "markdown_it",
+              "markdown_it.main",
+              "markdown_it.helpers",
+              "markdown_it.helpers.parse_link_label",
+              "markdown_it.rules_inline"
+            ],
+            "count": 2,
+            "cycle": [
+              "markdown_it.rules_inline"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0,
+            "globals_at_access": 0,
+            "kind": "submodule-probe",
+            "target": "markdown_it.rules_inline"
+          },
+          {
+            "accessor": "markdown_it.rules_inline",
+            "attribute": "strikethrough",
+            "chain": [
+              "markdown_it",
+              "markdown_it.main",
+              "markdown_it.helpers",
+              "markdown_it.helpers.parse_link_label",
+              "markdown_it.rules_inline"
+            ],
+            "count": 2,
+            "cycle": [
+              "markdown_it.rules_inline"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.1111,
+            "globals_at_access": 2,
+            "kind": "submodule-probe",
+            "target": "markdown_it.rules_inline"
+          }
+        ]
+      },
+      "static": {
+        "cycle_count": 1,
+        "cycles": [
+          [
+            "markdown_it",
+            "markdown_it.common.normalize_url",
+            "markdown_it.helpers",
+            "markdown_it.helpers.parse_link_label",
+            "markdown_it.main",
+            "markdown_it.parser_block",
+            "markdown_it.parser_core",
+            "markdown_it.parser_inline",
+            "markdown_it.ruler",
+            "markdown_it.rules_block",
+            "markdown_it.rules_block.blockquote",
+            "markdown_it.rules_block.code",
+            "markdown_it.rules_block.fence",
+            "markdown_it.rules_block.heading",
+            "markdown_it.rules_block.hr",
+            "markdown_it.rules_block.html_block",
+            "markdown_it.rules_block.lheading",
+            "markdown_it.rules_block.list",
+            "markdown_it.rules_block.paragraph",
+            "markdown_it.rules_block.reference",
+            "markdown_it.rules_block.state_block",
+            "markdown_it.rules_block.table",
+            "markdown_it.rules_core",
+            "markdown_it.rules_core.block",
+            "markdown_it.rules_core.inline",
+            "markdown_it.rules_core.linkify",
+            "markdown_it.rules_core.normalize",
+            "markdown_it.rules_core.replacements",
+            "markdown_it.rules_core.smartquotes",
+            "markdown_it.rules_core.state_core",
+            "markdown_it.rules_core.text_join",
+            "markdown_it.rules_inline",
+            "markdown_it.rules_inline.autolink",
+            "markdown_it.rules_inline.backticks",
+            "markdown_it.rules_inline.balance_pairs",
+            "markdown_it.rules_inline.emphasis",
+            "markdown_it.rules_inline.entity",
+            "markdown_it.rules_inline.escape",
+            "markdown_it.rules_inline.fragments_join",
+            "markdown_it.rules_inline.html_inline",
+            "markdown_it.rules_inline.image",
+            "markdown_it.rules_inline.link",
+            "markdown_it.rules_inline.linkify",
+            "markdown_it.rules_inline.newline",
+            "markdown_it.rules_inline.state_inline",
+            "markdown_it.rules_inline.strikethrough",
+            "markdown_it.rules_inline.text"
+          ]
+        ],
+        "edges": 167,
+        "largest_cycle": 47,
+        "modules": 66
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "third-party",
+      "elapsed_s": 0.0005,
+      "error": null,
+      "import_ok": true,
+      "package": "docutils",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3/dist-packages/docutils",
+      "runtime": {
+        "accesses": 0,
+        "imported_modules": 1,
+        "kinds": {},
+        "packages": [
+          "docutils"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "docutils"
+        ],
+        "witnesses": []
+      },
+      "static": {
+        "cycle_count": 2,
+        "cycles": [
+          [
+            "docutils.frontend",
+            "docutils.languages",
+            "docutils.nodes",
+            "docutils.transforms",
+            "docutils.utils"
+          ],
+          [
+            "docutils.parsers.rst",
+            "docutils.parsers.rst.roles",
+            "docutils.parsers.rst.states"
+          ]
+        ],
+        "edges": 263,
+        "largest_cycle": 5,
+        "modules": 123
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "third-party",
+      "elapsed_s": 0.0416,
+      "error": null,
+      "import_ok": true,
+      "package": "httplib2",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3/dist-packages/httplib2",
+      "runtime": {
+        "accesses": 6,
+        "imported_modules": 6,
+        "kinds": {
+          "submodule-probe": 3
+        },
+        "packages": [
+          "httplib2"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "httplib2",
+          "httplib2.auth",
+          "httplib2.certs",
+          "httplib2.error",
+          "httplib2.iri2uri",
+          "httplib2.socks"
+        ],
+        "witnesses": [
+          {
+            "accessor": "httplib2",
+            "attribute": "auth",
+            "chain": [
+              "httplib2"
+            ],
+            "count": 2,
+            "cycle": [
+              "httplib2"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.2644,
+            "globals_at_access": 23,
+            "kind": "submodule-probe",
+            "target": "httplib2"
+          },
+          {
+            "accessor": "httplib2",
+            "attribute": "certs",
+            "chain": [
+              "httplib2"
+            ],
+            "count": 2,
+            "cycle": [
+              "httplib2"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.5057,
+            "globals_at_access": 44,
+            "kind": "submodule-probe",
+            "target": "httplib2"
+          },
+          {
+            "accessor": "httplib2",
+            "attribute": "socks",
+            "chain": [
+              "httplib2"
+            ],
+            "count": 2,
+            "cycle": [
+              "httplib2"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.2529,
+            "globals_at_access": 22,
+            "kind": "submodule-probe",
+            "target": "httplib2"
+          }
+        ]
+      },
+      "static": {
+        "cycle_count": 0,
+        "cycles": [],
+        "edges": 6,
+        "largest_cycle": 0,
+        "modules": 6
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "third-party",
+      "elapsed_s": 0.0028,
+      "error": null,
+      "import_ok": true,
+      "package": "jmespath",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3/dist-packages/jmespath",
+      "runtime": {
+        "accesses": 14,
+        "imported_modules": 8,
+        "kinds": {
+          "submodule-probe": 7
+        },
+        "packages": [
+          "jmespath"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "jmespath",
+          "jmespath.ast",
+          "jmespath.compat",
+          "jmespath.exceptions",
+          "jmespath.functions",
+          "jmespath.lexer",
+          "jmespath.parser",
+          "jmespath.visitor"
+        ],
+        "witnesses": [
+          {
+            "accessor": "jmespath.parser",
+            "attribute": "ast",
+            "chain": [
+              "jmespath",
+              "jmespath.parser"
+            ],
+            "count": 2,
+            "cycle": [
+              "jmespath",
+              "jmespath.parser"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.3,
+            "globals_at_access": 3,
+            "kind": "submodule-probe",
+            "target": "jmespath"
+          },
+          {
+            "accessor": "jmespath.functions",
+            "attribute": "exceptions",
+            "chain": [
+              "jmespath",
+              "jmespath.parser",
+              "jmespath.visitor",
+              "jmespath.functions"
+            ],
+            "count": 2,
+            "cycle": [
+              "jmespath",
+              "jmespath.parser",
+              "jmespath.visitor",
+              "jmespath.functions"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.4,
+            "globals_at_access": 4,
+            "kind": "submodule-probe",
+            "target": "jmespath"
+          },
+          {
+            "accessor": "jmespath.parser",
+            "attribute": "exceptions",
+            "chain": [
+              "jmespath",
+              "jmespath.parser"
+            ],
+            "count": 2,
+            "cycle": [
+              "jmespath",
+              "jmespath.parser"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.4,
+            "globals_at_access": 4,
+            "kind": "submodule-probe",
+            "target": "jmespath"
+          },
+          {
+            "accessor": "jmespath.visitor",
+            "attribute": "functions",
+            "chain": [
+              "jmespath",
+              "jmespath.parser",
+              "jmespath.visitor"
+            ],
+            "count": 2,
+            "cycle": [
+              "jmespath",
+              "jmespath.parser",
+              "jmespath.visitor"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.4,
+            "globals_at_access": 4,
+            "kind": "submodule-probe",
+            "target": "jmespath"
+          },
+          {
+            "accessor": "jmespath.parser",
+            "attribute": "lexer",
+            "chain": [
+              "jmespath",
+              "jmespath.parser"
+            ],
+            "count": 2,
+            "cycle": [
+              "jmespath",
+              "jmespath.parser"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0,
+            "globals_at_access": 0,
+            "kind": "submodule-probe",
+            "target": "jmespath"
+          },
+          {
+            "accessor": "jmespath",
+            "attribute": "parser",
+            "chain": [
+              "jmespath"
+            ],
+            "count": 2,
+            "cycle": [
+              "jmespath"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0,
+            "globals_at_access": 0,
+            "kind": "submodule-probe",
+            "target": "jmespath"
+          },
+          {
+            "accessor": "jmespath.parser",
+            "attribute": "visitor",
+            "chain": [
+              "jmespath",
+              "jmespath.parser"
+            ],
+            "count": 2,
+            "cycle": [
+              "jmespath",
+              "jmespath.parser"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.4,
+            "globals_at_access": 4,
+            "kind": "submodule-probe",
+            "target": "jmespath"
+          }
+        ]
+      },
+      "static": {
+        "cycle_count": 1,
+        "cycles": [
+          [
+            "jmespath",
+            "jmespath.functions",
+            "jmespath.parser",
+            "jmespath.visitor"
+          ]
+        ],
+        "edges": 16,
+        "largest_cycle": 4,
+        "modules": 8
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "third-party",
+      "elapsed_s": 0.0003,
+      "error": null,
+      "import_ok": true,
+      "package": "pygments",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3/dist-packages/pygments",
+      "runtime": {
+        "accesses": 0,
+        "imported_modules": 1,
+        "kinds": {},
+        "packages": [
+          "pygments"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "pygments"
+        ],
+        "witnesses": []
+      },
+      "static": {
+        "cycle_count": 0,
+        "cycles": [],
+        "edges": 796,
+        "largest_cycle": 0,
+        "modules": 321
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "third-party",
+      "elapsed_s": 0.139,
+      "error": null,
+      "import_ok": true,
+      "package": "boto3",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3/dist-packages/boto3",
+      "runtime": {
+        "accesses": 0,
+        "imported_modules": 26,
+        "kinds": {},
+        "packages": [
+          "boto3"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "boto3",
+          "boto3.compat",
+          "boto3.docs",
+          "boto3.docs.action",
+          "boto3.docs.attr",
+          "boto3.docs.base",
+          "boto3.docs.client",
+          "boto3.docs.collection",
+          "boto3.docs.docstring",
+          "boto3.docs.method",
+          "boto3.docs.resource",
+          "boto3.docs.service",
+          "boto3.docs.subresource",
+          "boto3.docs.utils",
+          "boto3.docs.waiter",
+          "boto3.exceptions",
+          "boto3.resources",
+          "boto3.resources.action",
+          "boto3.resources.base",
+          "boto3.resources.collection",
+          "boto3.resources.factory",
+          "boto3.resources.model",
+          "boto3.resources.params",
+          "boto3.resources.response",
+          "boto3.session",
+          "boto3.utils"
+        ],
+        "witnesses": []
+      },
+      "static": {
+        "cycle_count": 1,
+        "cycles": [
+          [
+            "boto3",
+            "boto3.docs",
+            "boto3.docs.service",
+            "boto3.resources.base",
+            "boto3.resources.collection",
+            "boto3.resources.factory",
+            "boto3.session"
+          ]
+        ],
+        "edges": 69,
+        "largest_cycle": 7,
+        "modules": 39
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "third-party",
+      "elapsed_s": 0.0039,
+      "error": null,
+      "import_ok": true,
+      "package": "botocore",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3/dist-packages/botocore",
+      "runtime": {
+        "accesses": 0,
+        "imported_modules": 1,
+        "kinds": {},
+        "packages": [
+          "botocore"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "botocore"
+        ],
+        "witnesses": []
+      },
+      "static": {
+        "cycle_count": 2,
+        "cycles": [
+          [
+            "botocore.auth",
+            "botocore.crt.auth"
+          ],
+          [
+            "botocore.awsrequest",
+            "botocore.httpsession",
+            "botocore.utils"
+          ]
+        ],
+        "edges": 233,
+        "largest_cycle": 3,
+        "modules": 67
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "third-party",
+      "elapsed_s": 0.1341,
+      "error": null,
+      "import_ok": true,
+      "package": "eventlet",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3/dist-packages/eventlet",
+      "runtime": {
+        "accesses": 91,
+        "imported_modules": 30,
+        "kinds": {
+          "partial-defined": 1,
+          "submodule-probe": 46
+        },
+        "packages": [
+          "eventlet"
+        ],
+        "runtime_cycles": [
+          [
+            "eventlet.hubs",
+            "eventlet.timeout"
+          ]
+        ],
+        "watched_modules": [
+          "eventlet",
+          "eventlet._version",
+          "eventlet.convenience",
+          "eventlet.event",
+          "eventlet.green",
+          "eventlet.green._socket_nodns",
+          "eventlet.green.os",
+          "eventlet.green.select",
+          "eventlet.green.socket",
+          "eventlet.green.ssl",
+          "eventlet.green.time",
+          "eventlet.greenio",
+          "eventlet.greenio.base",
+          "eventlet.greenio.py3",
+          "eventlet.greenpool",
+          "eventlet.greenthread",
+          "eventlet.hubs",
+          "eventlet.hubs.epolls",
+          "eventlet.hubs.hub",
+          "eventlet.hubs.kqueue",
+          "eventlet.hubs.poll",
+          "eventlet.hubs.selects",
+          "eventlet.hubs.timer",
+          "eventlet.patcher",
+          "eventlet.queue",
+          "eventlet.semaphore",
+          "eventlet.support",
+          "eventlet.support.greendns",
+          "eventlet.support.greenlets",
+          "eventlet.timeout"
+        ],
+        "witnesses": [
+          {
+            "accessor": "eventlet",
+            "attribute": "convenience",
+            "chain": [
+              "eventlet"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0682,
+            "globals_at_access": 3,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet",
+            "attribute": "event",
+            "chain": [
+              "eventlet"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.3182,
+            "globals_at_access": 14,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.greenthread",
+            "attribute": "event",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.greenthread"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.greenthread"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.1818,
+            "globals_at_access": 8,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.green._socket_nodns",
+            "attribute": "greenio",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.green._socket_nodns"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.green._socket_nodns"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.2727,
+            "globals_at_access": 12,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.green.os",
+            "attribute": "greenio",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.support.greendns",
+              "eventlet.green.os"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.support.greendns",
+              "eventlet.green.os"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.2955,
+            "globals_at_access": 13,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.green.ssl",
+            "attribute": "greenio",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.support.greendns",
+              "eventlet.green.ssl"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.support.greendns",
+              "eventlet.green.ssl"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.2955,
+            "globals_at_access": 13,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet",
+            "attribute": "greenpool",
+            "chain": [
+              "eventlet"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.3182,
+            "globals_at_access": 14,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.convenience",
+            "attribute": "greenpool",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0682,
+            "globals_at_access": 3,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet",
+            "attribute": "greenthread",
+            "chain": [
+              "eventlet"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.3182,
+            "globals_at_access": 14,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.convenience",
+            "attribute": "greenthread",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.25,
+            "globals_at_access": 11,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.green.os",
+            "attribute": "greenthread",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.support.greendns",
+              "eventlet.green.os"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.support.greendns",
+              "eventlet.green.os"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.2955,
+            "globals_at_access": 13,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.event",
+            "attribute": "hubs",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0682,
+            "globals_at_access": 3,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.green.os",
+            "attribute": "hubs",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.support.greendns",
+              "eventlet.green.os"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.support.greendns",
+              "eventlet.green.os"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.2955,
+            "globals_at_access": 13,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.green.ssl",
+            "attribute": "hubs",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.support.greendns",
+              "eventlet.green.ssl"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.support.greendns",
+              "eventlet.green.ssl"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.2955,
+            "globals_at_access": 13,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.greenthread",
+            "attribute": "hubs",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.greenthread"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.greenthread"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.1818,
+            "globals_at_access": 8,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.semaphore",
+            "attribute": "hubs",
+            "chain": [
+              "eventlet",
+              "eventlet.semaphore"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.semaphore"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.3182,
+            "globals_at_access": 14,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet",
+            "attribute": "patcher",
+            "chain": [
+              "eventlet"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.3182,
+            "globals_at_access": 14,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.green._socket_nodns",
+            "attribute": "patcher",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.green._socket_nodns"
+            ],
+            "count": 1,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.green._socket_nodns"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.2727,
+            "globals_at_access": 12,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.green.select",
+            "attribute": "patcher",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.support.greendns",
+              "eventlet.green.select"
+            ],
+            "count": 1,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.support.greendns",
+              "eventlet.green.select"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.2955,
+            "globals_at_access": 13,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.greenio.base",
+            "attribute": "patcher",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.green._socket_nodns",
+              "eventlet.greenio",
+              "eventlet.greenio.base"
+            ],
+            "count": 1,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.green._socket_nodns",
+              "eventlet.greenio",
+              "eventlet.greenio.base"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.2727,
+            "globals_at_access": 12,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.hubs",
+            "attribute": "patcher",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0682,
+            "globals_at_access": 3,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.hubs.epolls",
+            "attribute": "patcher",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.epolls"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.epolls"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.1136,
+            "globals_at_access": 5,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.hubs.kqueue",
+            "attribute": "patcher",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.kqueue"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.kqueue"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.1136,
+            "globals_at_access": 5,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.hubs.poll",
+            "attribute": "patcher",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.epolls",
+              "eventlet.hubs.poll"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.epolls",
+              "eventlet.hubs.poll"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.1136,
+            "globals_at_access": 5,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.hubs.selects",
+            "attribute": "patcher",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.selects"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.selects"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.1136,
+            "globals_at_access": 5,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.support.greendns",
+            "attribute": "patcher",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.support.greendns"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.green.socket",
+              "eventlet.support.greendns"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.2955,
+            "globals_at_access": 13,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet",
+            "attribute": "queue",
+            "chain": [
+              "eventlet"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.3182,
+            "globals_at_access": 14,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.greenpool",
+            "attribute": "queue",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0682,
+            "globals_at_access": 3,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet",
+            "attribute": "semaphore",
+            "chain": [
+              "eventlet"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.3182,
+            "globals_at_access": 14,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet",
+            "attribute": "support",
+            "chain": [
+              "eventlet"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.3409,
+            "globals_at_access": 15,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.convenience",
+            "attribute": "support",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.25,
+            "globals_at_access": 11,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.greenthread",
+            "attribute": "support",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.greenthread"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.greenthread"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.1818,
+            "globals_at_access": 8,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.hubs.epolls",
+            "attribute": "support",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.epolls"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.epolls"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.1136,
+            "globals_at_access": 5,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.hubs.kqueue",
+            "attribute": "support",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.kqueue"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.kqueue"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.1136,
+            "globals_at_access": 5,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.hubs.poll",
+            "attribute": "support",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.epolls",
+              "eventlet.hubs.poll"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.epolls",
+              "eventlet.hubs.poll"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.1136,
+            "globals_at_access": 5,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.hubs.selects",
+            "attribute": "support",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.selects"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.selects"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.1136,
+            "globals_at_access": 5,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet",
+            "attribute": "timeout",
+            "chain": [
+              "eventlet"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.3409,
+            "globals_at_access": 15,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.greenthread",
+            "attribute": "timeout",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.greenthread"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.greenthread"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.1818,
+            "globals_at_access": 8,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.hubs",
+            "attribute": "timeout",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.1136,
+            "globals_at_access": 5,
+            "kind": "submodule-probe",
+            "target": "eventlet"
+          },
+          {
+            "accessor": "eventlet.timeout",
+            "attribute": "get_hub",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.timeout"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet.hubs",
+              "eventlet.timeout"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.8,
+            "globals_at_access": 20,
+            "kind": "partial-defined",
+            "target": "eventlet.hubs"
+          },
+          {
+            "accessor": "eventlet.hubs.epolls",
+            "attribute": "hub",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.epolls"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet.hubs",
+              "eventlet.hubs.epolls"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.36,
+            "globals_at_access": 9,
+            "kind": "submodule-probe",
+            "target": "eventlet.hubs"
+          },
+          {
+            "accessor": "eventlet.hubs.kqueue",
+            "attribute": "hub",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.kqueue"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet.hubs",
+              "eventlet.hubs.kqueue"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.52,
+            "globals_at_access": 13,
+            "kind": "submodule-probe",
+            "target": "eventlet.hubs"
+          },
+          {
+            "accessor": "eventlet.hubs.poll",
+            "attribute": "hub",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.epolls",
+              "eventlet.hubs.poll"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet.hubs",
+              "eventlet.hubs.epolls",
+              "eventlet.hubs.poll"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.44,
+            "globals_at_access": 11,
+            "kind": "submodule-probe",
+            "target": "eventlet.hubs"
+          },
+          {
+            "accessor": "eventlet.hubs.selects",
+            "attribute": "hub",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.selects"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet.hubs",
+              "eventlet.hubs.selects"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.56,
+            "globals_at_access": 14,
+            "kind": "submodule-probe",
+            "target": "eventlet.hubs"
+          },
+          {
+            "accessor": "eventlet.hubs.epolls",
+            "attribute": "poll",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.epolls"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet.hubs",
+              "eventlet.hubs.epolls"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.44,
+            "globals_at_access": 11,
+            "kind": "submodule-probe",
+            "target": "eventlet.hubs"
+          },
+          {
+            "accessor": "eventlet.hubs.hub",
+            "attribute": "timer",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.hubs.epolls",
+              "eventlet.hubs.hub"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet.hubs",
+              "eventlet.hubs.epolls",
+              "eventlet.hubs.hub"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.36,
+            "globals_at_access": 9,
+            "kind": "submodule-probe",
+            "target": "eventlet.hubs"
+          },
+          {
+            "accessor": "eventlet.support",
+            "attribute": "greenlets",
+            "chain": [
+              "eventlet",
+              "eventlet.convenience",
+              "eventlet.greenpool",
+              "eventlet.queue",
+              "eventlet.event",
+              "eventlet.hubs",
+              "eventlet.support"
+            ],
+            "count": 2,
+            "cycle": [
+              "eventlet.support"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.3636,
+            "globals_at_access": 4,
+            "kind": "submodule-probe",
+            "target": "eventlet.support"
+          }
+        ]
+      },
+      "static": {
+        "cycle_count": 1,
+        "cycles": [
+          [
+            "eventlet",
+            "eventlet.convenience",
+            "eventlet.corolocal",
+            "eventlet.event",
+            "eventlet.green.MySQLdb",
+            "eventlet.green.OpenSSL",
+            "eventlet.green.OpenSSL.SSL",
+            "eventlet.green.Queue",
+            "eventlet.green._socket_nodns",
+            "eventlet.green.builtin",
+            "eventlet.green.os",
+            "eventlet.green.select",
+            "eventlet.green.selectors",
+            "eventlet.green.socket",
+            "eventlet.green.ssl",
+            "eventlet.green.subprocess",
+            "eventlet.green.thread",
+            "eventlet.green.threading",
+            "eventlet.green.time",
+            "eventlet.greenio",
+            "eventlet.greenio.base",
+            "eventlet.greenio.py3",
+            "eventlet.greenpool",
+            "eventlet.greenthread",
+            "eventlet.hubs",
+            "eventlet.hubs.asyncio",
+            "eventlet.hubs.hub",
+            "eventlet.hubs.timer",
+            "eventlet.lock",
+            "eventlet.patcher",
+            "eventlet.queue",
+            "eventlet.semaphore",
+            "eventlet.support.greendns",
+            "eventlet.support.psycopg2_patcher",
+            "eventlet.timeout",
+            "eventlet.tpool"
+          ]
+        ],
+        "edges": 369,
+        "largest_cycle": 36,
+        "modules": 93
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "third-party",
+      "elapsed_s": 0.0009,
+      "error": null,
+      "import_ok": true,
+      "package": "twisted",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3/dist-packages/twisted",
+      "runtime": {
+        "accesses": 0,
+        "imported_modules": 2,
+        "kinds": {},
+        "packages": [
+          "twisted"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "twisted",
+          "twisted._version"
+        ],
+        "witnesses": []
+      },
+      "static": {
+        "cycle_count": 15,
+        "cycles": [
+          [
+            "twisted._threads",
+            "twisted._threads._memory",
+            "twisted._threads._pool",
+            "twisted._threads._team"
+          ],
+          [
+            "twisted.internet._dumbwin32proc",
+            "twisted.internet._newtls",
+            "twisted.internet._pollingfile",
+            "twisted.internet._producer_helpers",
+            "twisted.internet._resolver",
+            "twisted.internet._signals",
+            "twisted.internet._sslverify",
+            "twisted.internet.abstract",
+            "twisted.internet.address",
+            "twisted.internet.base",
+            "twisted.internet.default",
+            "twisted.internet.defer",
+            "twisted.internet.epollreactor",
+            "twisted.internet.interfaces",
+            "twisted.internet.pollreactor",
+            "twisted.internet.posixbase",
+            "twisted.internet.process",
+            "twisted.internet.protocol",
+            "twisted.internet.reactor",
+            "twisted.internet.selectreactor",
+            "twisted.internet.ssl",
+            "twisted.internet.task",
+            "twisted.internet.tcp",
+            "twisted.internet.threads",
+            "twisted.internet.udp",
+            "twisted.internet.unix",
+            "twisted.internet.win32eventreactor",
+            "twisted.names.dns",
+            "twisted.names.error",
+            "twisted.protocols.policies",
+            "twisted.protocols.tls"
+          ],
+          [
+            "twisted.internet._posixserialport",
+            "twisted.internet._win32serialport",
+            "twisted.internet.serialport"
+          ],
+          [
+            "twisted.internet.iocpreactor",
+            "twisted.internet.iocpreactor.abstract",
+            "twisted.internet.iocpreactor.reactor",
+            "twisted.internet.iocpreactor.tcp",
+            "twisted.internet.iocpreactor.udp"
+          ],
+          [
+            "twisted.logger",
+            "twisted.logger._buffer",
+            "twisted.logger._capture",
+            "twisted.logger._file",
+            "twisted.logger._filter",
+            "twisted.logger._flatten",
+            "twisted.logger._format",
+            "twisted.logger._global",
+            "twisted.logger._interfaces",
+            "twisted.logger._io",
+            "twisted.logger._json",
+            "twisted.logger._legacy",
+            "twisted.logger._logger",
+            "twisted.logger._observer",
+            "twisted.logger._stdlib",
+            "twisted.python.failure",
+            "twisted.python.log"
+          ],
+          [
+            "twisted.mail._cred",
+            "twisted.mail._except",
+            "twisted.mail.smtp"
+          ],
+          [
+            "twisted.names.cache",
+            "twisted.names.client",
+            "twisted.names.common",
+            "twisted.names.hosts",
+            "twisted.names.resolve",
+            "twisted.names.root"
+          ],
+          [
+            "twisted.plugin",
+            "twisted.plugins"
+          ],
+          [
+            "twisted.protocols.haproxy",
+            "twisted.protocols.haproxy._v1parser",
+            "twisted.protocols.haproxy._v2parser",
+            "twisted.protocols.haproxy._wrapper"
+          ],
+          [
+            "twisted.python._inotify",
+            "twisted.python.filepath",
+            "twisted.python.runtime"
+          ],
+          [
+            "twisted.python._shellcomp",
+            "twisted.python.usage"
+          ],
+          [
+            "twisted.spread.flavors",
+            "twisted.spread.pb"
+          ],
+          [
+            "twisted.trial._asyncrunner",
+            "twisted.trial.reporter",
+            "twisted.trial.unittest"
+          ],
+          [
+            "twisted.web._element",
+            "twisted.web._flatten",
+            "twisted.web._http2",
+            "twisted.web._stan",
+            "twisted.web._template_util",
+            "twisted.web.error",
+            "twisted.web.http",
+            "twisted.web.iweb",
+            "twisted.web.resource",
+            "twisted.web.server",
+            "twisted.web.template",
+            "twisted.web.util"
+          ],
+          [
+            "twisted.words.protocols.jabber.error",
+            "twisted.words.protocols.jabber.xmlstream"
+          ]
+        ],
+        "edges": 5498,
+        "largest_cycle": 31,
+        "modules": 851
+      },
+      "stderr_tail": []
+    },
+    {
+      "corpus": "third-party",
+      "elapsed_s": 0.0117,
+      "error": null,
+      "import_ok": true,
+      "package": "attr",
+      "python": "3.12.3",
+      "returncode": 0,
+      "root": "/usr/lib/python3/dist-packages/attr",
+      "runtime": {
+        "accesses": 20,
+        "imported_modules": 13,
+        "kinds": {
+          "submodule-probe": 10
+        },
+        "packages": [
+          "attr"
+        ],
+        "runtime_cycles": [],
+        "watched_modules": [
+          "attr",
+          "attr._cmp",
+          "attr._compat",
+          "attr._config",
+          "attr._funcs",
+          "attr._make",
+          "attr._next_gen",
+          "attr._version_info",
+          "attr.converters",
+          "attr.exceptions",
+          "attr.filters",
+          "attr.setters",
+          "attr.validators"
+        ],
+        "witnesses": [
+          {
+            "accessor": "attr._make",
+            "attribute": "_compat",
+            "chain": [
+              "attr",
+              "attr.converters",
+              "attr._make"
+            ],
+            "count": 2,
+            "cycle": [
+              "attr",
+              "attr.converters",
+              "attr._make"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.0667,
+            "globals_at_access": 3,
+            "kind": "submodule-probe",
+            "target": "attr"
+          },
+          {
+            "accessor": "attr._make",
+            "attribute": "_config",
+            "chain": [
+              "attr",
+              "attr.converters",
+              "attr._make"
+            ],
+            "count": 2,
+            "cycle": [
+              "attr",
+              "attr.converters",
+              "attr._make"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0667,
+            "globals_at_access": 3,
+            "kind": "submodule-probe",
+            "target": "attr"
+          },
+          {
+            "accessor": "attr.setters",
+            "attribute": "_config",
+            "chain": [
+              "attr",
+              "attr.converters",
+              "attr._make",
+              "attr.setters"
+            ],
+            "count": 2,
+            "cycle": [
+              "attr",
+              "attr.converters",
+              "attr._make",
+              "attr.setters"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.0889,
+            "globals_at_access": 4,
+            "kind": "submodule-probe",
+            "target": "attr"
+          },
+          {
+            "accessor": "attr",
+            "attribute": "converters",
+            "chain": [
+              "attr"
+            ],
+            "count": 2,
+            "cycle": [
+              "attr"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0444,
+            "globals_at_access": 2,
+            "kind": "submodule-probe",
+            "target": "attr"
+          },
+          {
+            "accessor": "attr",
+            "attribute": "exceptions",
+            "chain": [
+              "attr"
+            ],
+            "count": 2,
+            "cycle": [
+              "attr"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.1778,
+            "globals_at_access": 8,
+            "kind": "submodule-probe",
+            "target": "attr"
+          },
+          {
+            "accessor": "attr",
+            "attribute": "filters",
+            "chain": [
+              "attr"
+            ],
+            "count": 2,
+            "cycle": [
+              "attr"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.1778,
+            "globals_at_access": 8,
+            "kind": "submodule-probe",
+            "target": "attr"
+          },
+          {
+            "accessor": "attr",
+            "attribute": "setters",
+            "chain": [
+              "attr"
+            ],
+            "count": 2,
+            "cycle": [
+              "attr"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.2,
+            "globals_at_access": 9,
+            "kind": "submodule-probe",
+            "target": "attr"
+          },
+          {
+            "accessor": "attr._make",
+            "attribute": "setters",
+            "chain": [
+              "attr",
+              "attr.converters",
+              "attr._make"
+            ],
+            "count": 2,
+            "cycle": [
+              "attr",
+              "attr.converters",
+              "attr._make"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.0889,
+            "globals_at_access": 4,
+            "kind": "submodule-probe",
+            "target": "attr"
+          },
+          {
+            "accessor": "attr._next_gen",
+            "attribute": "setters",
+            "chain": [
+              "attr",
+              "attr._next_gen"
+            ],
+            "count": 2,
+            "cycle": [
+              "attr",
+              "attr._next_gen"
+            ],
+            "defined_at_access": true,
+            "defined_fraction": 0.6889,
+            "globals_at_access": 31,
+            "kind": "submodule-probe",
+            "target": "attr"
+          },
+          {
+            "accessor": "attr",
+            "attribute": "validators",
+            "chain": [
+              "attr"
+            ],
+            "count": 2,
+            "cycle": [
+              "attr"
+            ],
+            "defined_at_access": false,
+            "defined_fraction": 0.2,
+            "globals_at_access": 9,
+            "kind": "submodule-probe",
+            "target": "attr"
+          }
+        ]
+      },
+      "static": {
+        "cycle_count": 1,
+        "cycles": [
+          [
+            "attr",
+            "attr._cmp",
+            "attr._funcs",
+            "attr._make",
+            "attr._next_gen",
+            "attr._version_info",
+            "attr.converters",
+            "attr.filters",
+            "attr.setters",
+            "attr.validators"
+          ]
+        ],
+        "edges": 38,
+        "largest_cycle": 10,
+        "modules": 13
+      },
+      "stderr_tail": []
+    }
+  ],
+  "summary": {
+    "kinds": {
+      "partial-defined": 1,
+      "submodule-probe": 182
+    },
+    "modules_executed": 268,
+    "packages": 27,
+    "packages_imported_ok": 27,
+    "partial_init_reads": 183,
+    "runtime_cycles": 1,
+    "static_cycles": 38
+  }
+}
